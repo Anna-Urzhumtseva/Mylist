@@ -226,14 +226,6 @@ namespace MyList
             return sb.ToString();
         }
 
-        public IEnumerator<T> GetEnumerator()
-        {
-            return default;
-        }
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return default;
-        }
     }
 }
