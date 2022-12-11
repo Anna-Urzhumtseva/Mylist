@@ -11,7 +11,7 @@ namespace MyList
     /// Реализация списка
     /// </summary>
     /// <typeparam name="T">Тип элементов списка</typeparam>
-    public class MyList<T> : IEnumerable<T>
+    public class MyList<T> 
     {
         private T[] items;
         private int itemCount;
